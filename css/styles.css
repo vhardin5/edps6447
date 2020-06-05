@@ -12,3 +12,29 @@ div.alert-warning {
 .card-header {
 	text-align: center;
 }
+
+/*mine*/
+#container{
+	padding: 10px;
+}
+#myVideo, #text_statement, #form-check-input{
+	padding: 10px;
+	width: 100%;
+}
+#playButtons
+{
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#nextButtons{
+	text-align: right;}
+
+#vidNum{
+	float: right;
+}
+#altvid{
+	text-align: center;
+}

@@ -21,8 +21,8 @@
 
 		<!-- Quizzlet Stylesheet -->
 		<link href="css/styles.css" rel="stylesheet" />
-
-		<title>EDPS 6447 Summer 2020</title>
+	
+		<title>Quiz Wars</title>
 	</head>
 	<body>
 		<div class="container-fluid" style="height: 100vh;">
@@ -44,10 +44,31 @@
 					<div class="card">
 						<div class="card-header">QUIZ WARS</div>
 						<div class="card-body">
-							<p class="font-weight-bold">Read the statement carefully and indicate whether it is True or False</p>
+							<p class="font-weight-bold">Read the statement carefully and indicate whether it is True or False.</p>
+						<!-- video -->
+						<div id="altvid">
+							<iframe width="auto" height="200" src="https://www.youtube.com/embed/jBnzICgYNqA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>						</div>
+						<!--
+							<div id="container">
+								 alt: <video id="myVideo controls="controls"">
+								<video id="myVideo">
+									<source src="vids/deathstar.mp4"/>
+								</video>
+							-->
+								<output id="timeOut">Time: 0:00</output>
+								<output id="vidNum">Video: 1/4</output>
+								<div id="playButtons">
+									<button id="btnStop"><i class="fas fa-stop"></i></button>
+									<button id="btnPlay"><i class="fas fa-play"></i></button>
+									<button id="btnPause"><i class="fas fa-pause"></i></button>
+								</div>
+								<div id="nextButtons">
+									<button id="btnNext">Next Video</button>
+								</div>
+							</div>	
 							<p id="text_statement" class="font-italic">Javascript variables are containers for storing data values.</p>
 							<div class="form-check">
-								<input class="form-check-input" type="radio" name="quizzlet_input" id="input_1" value="option1" checked />
+								<input class="form-check-input" type="radio" name="quizzlet_input" id="input_1" value="option1" />
 								<label class="form-check-label" for="input_1">True</label>
 							</div>
 							<div class="form-check mb-3">
@@ -111,5 +132,6 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="js/variable.js"></script>		
+		<script src="js/data.js"></script>
 	</body>
 </html>
